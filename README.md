@@ -39,11 +39,10 @@ cd L2-Interceptor
 
 # Install dependencies (if not already installed)
 
-Note: The script is currently configured to bind to eth0. In environments with dynamic interfaces (e.g., Wi-Fi like wlan0), the interface parameter in the source code should be adjusted accordingly.
-⚠️ Disclaimer
+# Run the tool
+sudo python3 L2-Interceptor.py
+
+### ⚠️ Disclaimer
 
 This code was developed strictly for information security research, authorized auditing, and network protocol studies. It must not be used on any network without the explicit, written consent of the network administrators. The author is not responsible for any misuse or damage caused by this tool.
 pip install scapy
-
-# Run the tool
-sudo python3 L2-Interceptor.py
