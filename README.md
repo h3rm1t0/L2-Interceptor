@@ -29,6 +29,11 @@ In professional Red Team engagements, network stability is paramount. Standard a
 - Python 3.x
 - Scapy
 
+### ⚠️ Disclaimer
+
+This code was developed strictly for information security research, authorized auditing, and network protocol studies. It must not be used on any network without the explicit, written consent of the network administrators. The author is not responsible for any misuse or damage caused by this tool.
+pip install scapy
+
 ### Setup
 ```bash
 # Clone the repository
@@ -41,8 +46,3 @@ cd L2-Interceptor
 
 # Run the tool
 sudo python3 L2-Interceptor.py
-
-### ⚠️ Disclaimer
-
-This code was developed strictly for information security research, authorized auditing, and network protocol studies. It must not be used on any network without the explicit, written consent of the network administrators. The author is not responsible for any misuse or damage caused by this tool.
-pip install scapy
