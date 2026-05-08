@@ -21,6 +21,11 @@ In professional Red Team engagements, network stability is paramount. Standard a
     2.  Disables Linux Kernel IP Forwarding.
     3.  Safely closes all active threads to prevent zombie processes.
 
+#### ⚠️ Disclaimer
+
+This code was developed strictly for information security research, authorized auditing, and network protocol studies. It must not be used on any network without the explicit, written consent of the network administrators. The author is not responsible for any misuse or damage caused by this tool.
+pip install scapy
+
 ## 🚀 Installation & Usage
 
 **Note:** This tool requires root privileges for raw socket manipulation and Linux Kernel modification (`/proc/sys/net/ipv4/ip_forward`).
@@ -28,11 +33,6 @@ In professional Red Team engagements, network stability is paramount. Standard a
 ### Prerequisites
 - Python 3.x
 - Scapy
-
-### ⚠️ Disclaimer
-
-This code was developed strictly for information security research, authorized auditing, and network protocol studies. It must not be used on any network without the explicit, written consent of the network administrators. The author is not responsible for any misuse or damage caused by this tool.
-pip install scapy
 
 ### Setup
 ```bash
@@ -46,3 +46,5 @@ cd L2-Interceptor
 
 # Run the tool
 sudo python3 L2-Interceptor.py
+
+
