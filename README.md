@@ -47,4 +47,4 @@ cd L2-Interceptor
 # Run the tool
 sudo python3 L2-Interceptor.py
 
-
+Note: The script is currently configured to bind to eth0. In environments with dynamic interfaces (e.g., Wi-Fi like wlan0), the interface parameter in the source code should be adjusted accordingly.
